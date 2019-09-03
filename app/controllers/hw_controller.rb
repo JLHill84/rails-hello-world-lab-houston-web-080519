@@ -1,5 +1,7 @@
 class HwController < ApplicationController
   
-  get 'hello_world', to: '#hello_world'
+  def hello_world
+    
+  end
   
 end
