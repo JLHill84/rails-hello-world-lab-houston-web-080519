@@ -1,4 +1,4 @@
-class HwController < Application HwController
+class HwController < ApplicationController
   
   get 'hello_world', to: '#hello_world'
   
